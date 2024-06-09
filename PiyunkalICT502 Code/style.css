@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+form[action="login.php"] {
+  display: inline;
+  margin-top: 10px;
+}
